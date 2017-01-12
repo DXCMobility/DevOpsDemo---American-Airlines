@@ -57,14 +57,7 @@ public class LauncherActivity extends AppCompatActivity
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()) {
-            case R.id.container_offer:
-                crashApp();
-                break;
-        }
+        
     }
 
-    private void crashApp() {
-        Integer.parseInt(null);
-    }
 }
