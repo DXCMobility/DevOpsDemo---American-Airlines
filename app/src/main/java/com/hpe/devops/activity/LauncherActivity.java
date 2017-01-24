@@ -22,7 +22,7 @@ public class LauncherActivity extends AppCompatActivity
         setContentView(R.layout.activity_launcher);
         DevOpsApplication.inject(this);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        setSupportActionBar(toolbar);;
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -57,7 +57,7 @@ public class LauncherActivity extends AppCompatActivity
 
     @Override
     public void onClick(View v) {
-        
+
     }
 
 }
